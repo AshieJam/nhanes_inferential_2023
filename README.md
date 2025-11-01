@@ -8,7 +8,7 @@
    - **Question 1**: "Is there **an association** between marital status (married or not married) and education level (bachelor’s degree or higher vs. less than a bachelor’s degree)?"  
      - Variables: `DMDMARTZ` (marital status) and `DMDEDUC2` (education level). Recode as specified.
 
-     **Ans** - Based on the Chi-Square test there was a statistically significant association between marital status and education level.
+     **Ans** - Based on the Chi-Square test, there was a statistically significant association between marital status and education level.
 
    - **Question 2**: "Is there **a difference in the mean** sedentary behavior time between those who are married and those who are not married?"  
      - Variables: `DMDMARTZ` (marital status, recoded) and `PAD680` (sedentary behavior time, cleaned).
@@ -23,13 +23,14 @@
    - **Question 4**: "Is there a **correlation** between self-reported weight and minutes of sedentary behavior?"  
      - Variables: `WHD020` (self-reported weight, cleaned) and `PAD680` (sedentary behavior time, cleaned).
 
-     **Ans** - Weight and sedentary time move in the same direction, according to the correlation analysis: sedentary behavior tends to slightly rise as weight increases. Despite being statistically significant, the weak correlation (r = 0.16) suggests that there may be more relevant variables. 
+     **Ans** - Weight and sedentary time move in the same direction, according to the correlation analysis: sedentary behavior tends to rise as weight increases slightly. Although statistically significant, the weak correlation (r = 0.16) suggests that additional relevant variables may exist. 
      
      Weak: A correlation is weak if it falls between 0.1 and 0.5.
 
 
    - **Question 5 (Creative Analysis)**: Difference in Diastolic Blood Pressure by Kidney Failure.
 
-Reason for analysis- It is known that high blood pressure is an indicator to kidney failure. Although systolic is mostly used I wanted to seek if there is a causation from the NCHS dataset. 
+Reason for analysis- It is known that high blood pressure is an indicator of kidney failure. Although systolic is used chiefly, I wanted to see if there is a causation from the NCHS dataset. 
 
-**Ans** - The results suggest that kidney health is associated with blood pressure levels. Individuals with weak or failing kidneys tended to show lower diastolic pressure
+**Ans** - The results suggest that kidney health is associated with blood pressure levels. Individuals with weak or failing kidneys tended to show lower diastolic pressure.
+
